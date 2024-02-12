@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mad System Monkeys Gathering</title>
+    <meta
+      name="description"
+      content="Event page for the Design System Tuesdays meet up for Design System Engineers, Frontend Engineers, Design System Designers, User Experience Designers, Figma Designers or people interested in Design Tokens, Web Components, Design Systems or related topics happening in Bern, Switzerland."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="madness.css" />
+  </head>
+  <body>
+    <aside>
+      <img
+        class="monkey-img"
+        src="/monkey.png"
+        alt="A funky monkey with sunglasses drawn in vibrant colors surrounded by the headline 'Mad System Monkeys'"
+      />
+    </aside>
+
+    <main>
+      <h1 class="bordered-text">Design System Meet Up</h1>
+      <p class="subtitle bordered-text">
+        March 26, 17:30, Swiss Post, Wankdorfallee 4, Bern Wankdorf
+      </p>
+      <p class="bordered-text section">
+        Are you a Design System tinkerer based in Switzerland?
+      </p>
+      <form
+        data-netlify="true"
+        class="section"
+        action="/success.html"
+        method="POST"
+      >
+        <fieldset>
+          <legend class="bordered-text">Sign up for the event</legend>
+
+          <label class="bordered-text" for="name">Name</label>
+          <div class="field">
+            <input type="text" id="name" name="name" required />
+          </div>
+          <label class="bordered-text" for="email">Email address</label>
+          <div class="field">
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="align-right buttons">
+            <div class="field">
+              <button type="submit">
+                I'm in<span class="visually-hidden"
+                  >, register for the event</span
+                >
+              </button>
+            </div>
+            <div class="field"><button type="reset">Reset</button></div>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <svg
+        width="107"
+        height="107"
+        viewBox="0 0 107 107"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="logo-title"
+      >
+        <title id="logo-title">
+          Logo of the Swiss Post, the host of this event
+        </title>
+        <g clip-path="url(#clip0_2_62)">
+          <path d="M107 0H0V107H107V0Z" fill="#FFCC00" />
+          <path
+            d="M50.5278 48.0014V28.2361H29.2764V43.2458H14.8611V63.7542H29.2764V78.7639H50.5278V58.9986H45.475V74.0083H34.3291V58.9986H19.9139V48.0014H34.3291V32.9917H45.475V48.0014H50.5278Z"
+            fill="#FF0000"
+          />
+          <path
+            d="M79.5996 46.2259C79.5996 49.8114 76.6399 52.6084 72.8865 52.6084H67.1722V40.2736H72.8865C76.7844 40.2736 79.5996 42.7835 79.5996 46.2259ZM75.3409 28.2361H53.5V78.7639H67.1722V63.7542H75.3409C85.3741 63.7542 93.1699 56.0987 93.1699 46.2096C93.1699 36.2483 85.2299 28.2361 75.3409 28.2361Z"
+            fill="black"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_2_62">
+            <rect width="107" height="107" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+      <p class="bordered-text">Hosted by the Swiss Post</p>
+
+      <p class="author bordered-text">
+        monkey patched by Philipp
+        <a
+          href="mailto:philipp.gfeller@post.ch"
+          aria-label="Write an e-mail to Philipp (philipp.gfeller@post.ch)"
+          >Mail</a
+        >
+        <a
+          aria-label="Go to the LinkedIn profile of Philipp Gfeller"
+          href="https://www.linkedin.com/in/philipp-gfeller-59a681138/"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
