@@ -50,6 +50,54 @@
         <li>Something else?</li>
       </ul>
     </main>
+    <form
+      data-netlify="true"
+      class="section"
+      action="/success.html"
+      method="POST"
+      netlify-honeypot="bot-field"
+    >
+      <fieldset>
+        <legend class="bordered-text">Sign up for the event</legend>
+
+        <label class="bordered-text" for="name">Name</label>
+        <div class="field">
+          <input type="text" id="name" name="name" required />
+        </div>
+        <label class="bordered-text" for="email">Email address</label>
+        <div class="field">
+          <input type="email" id="email" name="email" required />
+        </div>
+        <label for="i-present" class="bordered-text field checkbox">
+          <input type="checkbox" id="i-present" name="ipresent" />
+          I'd like to present something
+        </label>
+        <label class="puh-the-bear">
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+        <div class="wants-to-present">
+          <label for="topic" class="bordered-text">Topic</label>
+          <div class="field">
+            <input
+              placeholder="Our super cool Design System, how we use tokens, ..."
+              type="text"
+              name="topic"
+              id="topic"
+            />
+          </div>
+        </div>
+        <div class="align-right buttons">
+          <div class="field">
+            <button type="submit">
+              I'm in<span class="visually-hidden"
+                >, register for the event</span
+              >
+            </button>
+          </div>
+          <div class="field"><button type="reset">Reset</button></div>
+        </div>
+      </fieldset>
+    </form>
 
     <footer>
       <div>
@@ -87,6 +135,11 @@
 
       <p class="author bordered-text">
         monkey patched by Philipp
+        <a
+          aria-label="see source code of this page on GitHub"
+          href="https://github.com/swisspost/design-system-tuesdays"
+          >GitHub</a
+        >
         <a
           href="mailto:philipp.gfeller@post.ch"
           aria-label="Write an e-mail to Philipp (philipp.gfeller@post.ch)"
