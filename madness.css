@@ -14,7 +14,7 @@
 
 body {
   display: grid;
-  grid-template-columns: min(100%,60ch);
+  grid-template-columns: min(100%, 60ch);
   gap: 1em;
   margin: 0 1em;
   padding-block: 1em;
@@ -269,8 +269,8 @@ input[type="checkbox"] {
   background-color: white;
 
   &:checked {
-    &::after{
-      content: '';
+    &::after {
+      content: "";
       position: absolute;
       inset: 0.25em;
       background-color: currentColor;
@@ -288,4 +288,20 @@ input[type="checkbox"] {
 .author {
   display: flex;
   gap: 20px;
+}
+
+.agenda li::marker {
+  margin-left: 0;
+  position: relative;
+  z-index: 1;
+}
+.agenda h3 {
+  margin-top: 2em;
+}
+.agenda :where(h3, p) {
+  margin-block: 0.25em;
+}
+.agenda .speaker {
+  font-size: 0.9em;
+  font-style: italic;
 }
