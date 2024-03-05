@@ -290,6 +290,10 @@ input[type="checkbox"] {
   gap: 20px;
 }
 
+.agenda {
+  padding-left: 0;
+}
+
 .agenda li::marker {
   margin-left: 0;
   position: relative;
