@@ -242,13 +242,23 @@ body > footer {
   gap: 1rem;
 }
 
-.finger {
-  font-size: 2em;
-  transition: transform ease-out 0.35s;
+.color-post-yellow {
+  color: #ffcc00;
+}
 
-  details[open] & {
-    transform: scaleY(-1);
-  }
+summary::after {
+  position: relative;
+  top: 0.5em;
+  margin-left: auto;
+  content: "";
+  border: 1em solid transparent;
+  border-top-color: inherit;
+  transition: transform ease-out 0.35s;
+  transform-origin: center 25%;
+}
+
+details[open] summary::after {
+  transform: scaleY(-1);
 }
 
 .checkbox {
