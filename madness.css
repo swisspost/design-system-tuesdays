@@ -54,6 +54,11 @@ h1 {
   margin-bottom: 0;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid black;
+}
+
 summary {
   display: flex;
   gap: 1rem;
