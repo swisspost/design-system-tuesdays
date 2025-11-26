@@ -4,10 +4,10 @@ PRODID:-//ICS Generator//NONSGML ICS Generator//DE
 BEGIN:VEVENT
 UID:1764081975031-qgmttsf?@ics-generator.de
 DTSTAMP:20251125T144615Z
-DTSTART:20251125T170000
-DTEND:20251125T190000
+DTSTART:20260113T170000
+DTEND:20260113T190000
 SUMMARY:Design System Tuesday
-DESCRIPTION:After the first successful installment in 2024\\\, we're looking forward to host the next Design System Tuesday in January 2026!
+DESCRIPTION:After the first successful installment in 2024, we're looking forward to host the next Design System Tuesday in January 2026!
 LOCATION:Swiss Post\, Wankdorfallee 4\, 3030 Bern
 BEGIN:VALARM
 ACTION:DISPLAY
