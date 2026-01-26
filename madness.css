@@ -131,10 +131,10 @@
       border-top-color: inherit;
       transition: transform ease-out 0.35s;
       transform-origin: center 25%;
+    }
 
-      details[open] & {
-        transform: scaleY(-1);
-      }
+    details[open] &::after {
+      transform: scaleY(-1);
     }
 
     & > * {

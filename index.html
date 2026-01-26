@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -74,110 +74,145 @@
     <main>
       <header class="cloud page-header">
         <h1>Design System Meet Up</h1>
-        <p class="subtitle">
-          13th of January 2026 - 17:00, Swiss Post,
-          <a href="https://maps.app.goo.gl/UG2p2fzJLqvzoCJa7"
-            ><span class="nowrap">Wankdorfallee 4,</span> Bern</a
-          >
+        <p class="subtitle">Looking for speakers.</p>
+        <p>
+          We're lookgin for speakers or topics to plan another Design System
+          Tuesday in 2026. If you have something to share about Design Systems,
+          Web Components, Design Tokens, Figma, UX or related topics, please get
+          in touch!
         </p>
         <p>
-          <a class="button" href="/signup">Sign up now!</a>
+          <a class="button" href="mailto:philipp.gfeller@post.ch"
+            >Submit a topic</a
+          >
         </p>
       </header>
 
       <section class="cloud">
-        <h2>Design System Tuesday January 2026</h2>
-        <p>
-          <b>
-            After the <a href="#first-agenda">first successful installment</a>,
-            we're looking forward to host the next Design System Tuesday in
-            January 2026!
-          </b>
-        </p>
+        <details>
+          <summary class="agenda-summary" id="january-2026">
+            <h2>Design System Tuesday January 2026</h2>
+          </summary>
 
-        <h3>Agenda</h3>
-        <ul class="agenda">
-          <li data-marker="🎙️">
-            <h4>
-              Web Component Testing with Playwright and auto-VRTs in the
-              Pipeline
-            </h4>
-            <p>
-              In this session, we will explain how we implemented a Playwright
-              component testing runtime for web components, how we automatically
-              perform VRT, and how we integrate VRT tooling and baseline image
-              management for our component and end-to-end tests into our
-              pipeline as well as the review process.
-            </p>
-            <p class="speaker small">by Teo Eterovic</p>
-          </li>
-          <li data-marker="🎤">
-            <h4>Design Tokens</h4>
-            <p>
-              A deep dive into the architecture of the Swiss Post Design Token
-              System.
-            </p>
-            <p class="speaker small">by Philipp Gfeller</p>
-          </li>
-          <li data-marker="🍻">
-            <h4>Food, drinks and chat</h4>
-            <p>
-              Stay for a while after the talks and nerd out about Design Systems
-              over a drink and a bite.
-            </p>
-          </li>
-        </ul>
-        <p style="margin-block-start: 3rem" class="buttons">
-          <a class="button" href="/signup.html">Sign up now!</a>
-          <a
-            class="button secondary"
-            download
-            href="/assets/2026-january/design-system-tuesday-january-2026.ics"
-            >Download invite (<abbr>.ics</abbr>)</a
-          >
-        </p>
+          <div class="details-content">
+            <h3>Agenda</h3>
+            <ul class="agenda">
+              <li data-marker="🎙️">
+                <h4>
+                  Web Component Testing with Playwright and auto-VRTs in the
+                  Pipeline
+                </h4>
+                <p>
+                  In this session, we will explain how we implemented a
+                  Playwright component testing runtime for web components, how
+                  we automatically perform VRT, and how we integrate VRT tooling
+                  and baseline image management for our component and end-to-end
+                  tests into our pipeline as well as the review process.
+                </p>
+                <p class="speaker small">by Teo Eterovic</p>
+              </li>
+              <li data-marker="🎤">
+                <h4>Design Tokens</h4>
+                <p>
+                  A deep dive into the architecture of the Swiss Post Design
+                  Token System.
+                </p>
+                <p class="speaker small">by Philipp Gfeller</p>
+              </li>
+              <li data-marker="🍻">
+                <h4>Food, drinks and chat</h4>
+                <p>
+                  Stay for a while after the talks and nerd out about Design
+                  Systems over a drink and a bite.
+                </p>
+              </li>
+            </ul>
 
-        <footer class="small" style="margin-block-start: 3rem">
-          <hr />
-          <p class="centered gap-1">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 107 107"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-labelledby="logo-title"
-            >
-              <title id="logo-title">Logo of the Swiss Post</title>
-              <g clip-path="url(#clip0_2_62)">
-                <path d="M107 0H0V107H107V0Z" fill="#FFCC00" />
-                <path
-                  d="M50.5278 48.0014V28.2361H29.2764V43.2458H14.8611V63.7542H29.2764V78.7639H50.5278V58.9986H45.475V74.0083H34.3291V58.9986H19.9139V48.0014H34.3291V32.9917H45.475V48.0014H50.5278Z"
-                  fill="#FF0000"
-                />
-                <path
-                  d="M79.5996 46.2259C79.5996 49.8114 76.6399 52.6084 72.8865 52.6084H67.1722V40.2736H72.8865C76.7844 40.2736 79.5996 42.7835 79.5996 46.2259ZM75.3409 28.2361H53.5V78.7639H67.1722V63.7542H75.3409C85.3741 63.7542 93.1699 56.0987 93.1699 46.2096C93.1699 36.2483 85.2299 28.2361 75.3409 28.2361Z"
-                  fill="black"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_2_62">
-                  <rect width="107" height="107" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-            <b>Hosted by the Swiss Post</b>
-          </p>
-        </footer>
+            <h3>Impressions</h3>
+            <div class="pictures">
+              <figure>
+                <a
+                  href="/assets/2026-january/visual-regression-testing.jpg"
+                  aria-label="Full size image of Teo explaining visual regression testing"
+                >
+                  <img
+                    src="/assets/2026-january/visual-regression-testing-small.jpg"
+                    alt="A man stands at a podium giving a presentation to a seated audience in a room decorated with string lights."
+                  />
+                </a>
+                <figcaption>
+                  Teo explaining visual regression testing.
+                </figcaption>
+              </figure>
+              <figure>
+                <a
+                  href="/assets/2026-january/design-tokens.jpg"
+                  aria-label="Full size image of Philipp speaking about design tokens"
+                >
+                  <img
+                    src="/assets/2026-january/design-tokens-small.jpg"
+                    alt="Man stands near a screen displaying a presentation titled 'Design Tokens, Swiss Post Design System' in a modern conference room."
+                  />
+                </a>
+                <figcaption>Philipp speaking about Design Tokens.</figcaption>
+              </figure>
+              <figure>
+                <a
+                  href="/assets/2026-january/taking-notes.jpg"
+                  aria-label="Full size image of an attendee taking notes"
+                >
+                  <img
+                    src="/assets/2026-january/taking-notes-small.jpg"
+                    alt="Two people sit on low seats indoors; one person wears a plaid shirt and is taking notes on a tablet, while another sits nearby in a pink sweater. The presenter stands in the background."
+                  />
+                </a>
+                <figcaption>An attendee taking notes.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <footer class="small" style="margin-block-start: 3rem">
+            <hr />
+            <p class="centered gap-1">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 107 107"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-labelledby="logo-title"
+              >
+                <title id="logo-title">Logo of the Swiss Post</title>
+                <g clip-path="url(#clip0_2_62)">
+                  <path d="M107 0H0V107H107V0Z" fill="#FFCC00" />
+                  <path
+                    d="M50.5278 48.0014V28.2361H29.2764V43.2458H14.8611V63.7542H29.2764V78.7639H50.5278V58.9986H45.475V74.0083H34.3291V58.9986H19.9139V48.0014H34.3291V32.9917H45.475V48.0014H50.5278Z"
+                    fill="#FF0000"
+                  />
+                  <path
+                    d="M79.5996 46.2259C79.5996 49.8114 76.6399 52.6084 72.8865 52.6084H67.1722V40.2736H72.8865C76.7844 40.2736 79.5996 42.7835 79.5996 46.2259ZM75.3409 28.2361H53.5V78.7639H67.1722V63.7542H75.3409C85.3741 63.7542 93.1699 56.0987 93.1699 46.2096C93.1699 36.2483 85.2299 28.2361 75.3409 28.2361Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_62">
+                    <rect width="107" height="107" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <b>Hosted by the Swiss Post</b>
+            </p>
+          </footer>
+        </details>
       </section>
 
       <section class="cloud">
         <details>
           <summary class="agenda-summary" id="first-agenda">
             <h2 id="agenda-title-2024">
-              Agenda
-              <time datetime="2024-03-26">26th of March 2024</time>
+              Design System Tuesday
+              <time datetime="2024-03-26">March 2024</time>
             </h2>
           </summary>
 
